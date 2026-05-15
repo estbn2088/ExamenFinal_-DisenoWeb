@@ -1,0 +1,39 @@
+
+/* Ajustes propios sobre el template Applab para Eco Pilgua */
+:root{
+  --eco-verde:#2e7d32;
+  --eco-verde-oscuro:#1b5e20;
+  --eco-crema:#fffaf2;
+  --eco-rosa:#f7e7df;
+  --eco-texto:#253238;
+}
+
+body{color:var(--eco-texto);} 
+.text-eco{color:var(--eco-verde)!important;}
+.bg-eco-soft{background:linear-gradient(180deg,#fffaf2 0%, #f5fff4 100%);} 
+.btn-eco{background:var(--eco-verde); color:#fff; border-radius:50rem; padding:.75rem 1.6rem; font-weight:700; box-shadow:0 8px 18px rgba(46,125,50,.2);} 
+.btn-eco:hover{background:var(--eco-verde-oscuro); color:#fff; transform:translateY(-1px);} 
+.btn-outline-eco{border:2px solid var(--eco-verde); color:var(--eco-verde); border-radius:50rem; padding:.65rem 1.35rem; font-weight:700;}
+.btn-outline-eco:hover{background:var(--eco-verde); color:#fff;}
+.navbar-brand img{max-height:48px; border-radius:50%;}
+.hero-eco{padding-top:7.5rem; background:linear-gradient(120deg, #fffaf2 0%, #f4fff5 55%, #e9f7eb 100%);} 
+.hero-eco h1{font-size:3.2rem; line-height:1.1;}
+.hero-product{border-radius:2rem; box-shadow:0 1rem 3rem rgba(37,50,56,.18); object-fit:cover; max-height:430px; width:100%;}
+.logo-card{background:#fff; border-radius:1.5rem; box-shadow:0 .8rem 2rem rgba(0,0,0,.08); padding:1.2rem;}
+.section-title{font-weight:800; color:#18212d;}
+.card-eco{border:0; border-radius:1.25rem; box-shadow:0 .8rem 2rem rgba(0,0,0,.08); height:100%; transition:.2s ease; overflow:hidden;}
+.card-eco:hover{transform:translateY(-4px); box-shadow:0 1.1rem 2.5rem rgba(0,0,0,.12);} 
+.icon-circle{width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#e8f5e9;color:var(--eco-verde);font-size:1.7rem;font-weight:800;margin-bottom:1rem;}
+.product-img{height:225px;width:100%;object-fit:cover;}
+.badge-eco{background:#e8f5e9;color:var(--eco-verde);border-radius:50rem;padding:.5rem 1rem;font-weight:700;}
+.testimonial-card{background:#fff;border-left:5px solid var(--eco-verde);border-radius:1rem;padding:1.5rem;box-shadow:0 .8rem 2rem rgba(0,0,0,.06);}
+.contact-link{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:#253238;background:#fff;border-radius:1rem;padding:1rem;box-shadow:0 .6rem 1.4rem rgba(0,0,0,.06);height:100%;}
+.contact-link:hover{color:var(--eco-verde);transform:translateY(-2px);} 
+.footer-eco{background:#18212d;color:#d9e2ec;} 
+.footer-eco a{color:#fff;text-decoration:none;}
+.footer-eco a:hover{color:#9de19d;}
+@media (max-width:768px){
+  .hero-eco{padding-top:6.5rem;text-align:center;}
+  .hero-eco h1{font-size:2.25rem;}
+  .hero-product{max-height:320px;}
+}

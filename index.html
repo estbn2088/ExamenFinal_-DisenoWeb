@@ -1,136 +1,241 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eco Pilgua</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<html lang="es" dir="ltr">
 
-<header id="inicio" class="hero">
-    <nav class="navbar">
-        <h1 class="logo">Eco Pilgua</h1>
-        <ul class="menu">
-            <li><a href="#inicio">Inicio</a></li>
-            <li><a href="#nosotros">Nosotros</a></li>
-            <li><a href="#servicios">Servicios</a></li>
-            <li><a href="#historia">Historia</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eco Pilgua | Productos personalizados</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#2e7d32">
+    <link href="assets/css/theme.css" rel="stylesheet" />
+    <link href="assets/css/ecopilgua.css" rel="stylesheet" />
+  </head>
 
-    <div class="hero-content">
-        <h2>Productos personalizados con creatividad y cariño</h2>
-        <p>Papelería creativa y sublimación para transformar ideas en piezas únicas.</p>
-        <a href="#servicios" class="btn">Ver productos</a>
-    </div>
-</header>
-
-<main>
-
-    <section id="nosotros" class="section">
-        <h2>Sobre Eco Pilgua</h2>
-        <p>
-            En Eco Pilgua creamos productos personalizados que transforman ideas en piezas únicas
-            llenas de color, emoción y significado.
-        </p>
-    </section>
-
-    <section class="cards">
-        <article class="card">
-            <h3>Misión</h3>
-            <p>
-                Acompañar a cada cliente desde la inspiración hasta el resultado final,
-                entregando productos de papelería creativa y sublimación con diseño,
-                funcionalidad y cariño.
-            </p>
-        </article>
-
-        <article class="card">
-            <h3>Visión</h3>
-            <p>
-                Ser una marca reconocida a nivel nacional por su creatividad, rapidez,
-                compromiso e innovación en productos personalizados.
-            </p>
-        </article>
-    </section>
-
-    <section id="servicios" class="section">
-        <h2>Productos y Servicios</h2>
-
-        <div class="product-grid">
-            <article class="product">
-                <h3>Agendas y cuadernos</h3>
-                <p>Productos personalizados para organización y regalo.</p>
-            </article>
-
-            <article class="product">
-                <h3>Stickers</h3>
-                <p>Papelería creativa con diseños únicos.</p>
-            </article>
-
-            <article class="product">
-                <h3>Sublimación</h3>
-                <p>Tazones, cojines, pad mouse y cerámicas personalizadas.</p>
-            </article>
+  <body>
+    <main class="main" id="top">
+      <!-- Navbar original del template Applab adaptado a Eco Pilgua -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 bg-white" data-navbar-on-scroll="data-navbar-on-scroll">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#top">
+            <img src="assets/img/ecopilgua/logo-eco-pilgua.jpg" alt="Logo Eco Pilgua" class="me-2" />
+            <span class="text-eco">Eco</span><span class="text-1000"> Pilgua</span>
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+              <li class="nav-item"><a class="nav-link fw-medium" href="#inicio">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link fw-medium" href="#nosotros">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link fw-medium" href="#productos">Productos</a></li>
+              <li class="nav-item"><a class="nav-link fw-medium" href="#testimonios">Testimonios</a></li>
+              <li class="nav-item"><a class="nav-link fw-medium" href="#contacto">Contacto</a></li>
+            </ul>
+            <a class="btn btn-eco ms-lg-3 mt-3 mt-lg-0" href="https://wa.me/56932776583" target="_blank">Cotizar por WhatsApp</a>
+          </div>
         </div>
-    </section>
+      </nav>
 
-    <section class="section galeria">
-        <h2>Galería</h2>
-        <div class="imagenes">
-            <img src="img/Logo.jpg" alt="Logo Eco Pilgua">
-            <img src="img/Almohada.jpg" alt="Almohada personalizada">
+      <!-- Hero / Home: sección principal del template migrada -->
+      <section class="hero-eco py-8" id="inicio">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <span class="badge-eco mb-3 d-inline-block">Papelería creativa y sublimación</span>
+              <h1 class="fw-bold mb-4">Productos personalizados con creatividad y cariño</h1>
+              <p class="fs-1 mb-4">En Eco Pilgua transformamos ideas en piezas únicas llenas de color, emoción y significado. Acompañamos a cada cliente desde la inspiración hasta el resultado final.</p>
+              <a class="btn btn-eco me-2 mb-2" href="#productos">Ver productos</a>
+              <a class="btn btn-outline-eco mb-2" href="#nosotros">Conocer historia</a>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img class="hero-product" src="assets/img/ecopilgua/almohada-personalizada.jpg" alt="Almohada personalizada Eco Pilgua" />
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="historia" class="section">
-        <h2>Historia</h2>
-        <p>
-            Eco Pilgua nació desde el esfuerzo, la creatividad y el deseo de salir adelante.
-            Hoy representa amor, dedicación y compromiso en cada producto personalizado.
-        </p>
-    </section>
-
-    <section class="section testimonios">
-        <h2>Testimonios</h2>
-
-        <div class="testimonio">
-            <p>“Le conté mi idea y en minutos ya tenía el diseño, quedó hermoso.”</p>
-            <span>— Carolina</span>
+      <!-- Sección Nosotros: migración del contenido del mockup -->
+      <section class="py-7" id="nosotros">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-md-5 text-center">
+              <div class="logo-card">
+                <img class="img-fluid" src="assets/img/ecopilgua/logo-eco-pilgua.jpg" alt="Identidad visual Eco Pilgua" />
+              </div>
+            </div>
+            <div class="col-md-7">
+              <h2 class="section-title mb-4">Sobre Eco Pilgua</h2>
+              <p class="fs-1">Eco Pilgua es un emprendimiento dedicado a la creación de productos personalizados, destacando la papelería creativa y los artículos sublimados.</p>
+              <p class="fs-1">Cada producto es elaborado con dedicación, autenticidad y compromiso, buscando entregar detalles únicos que conecten con cada cliente.</p>
+              <div class="row mt-4 g-3">
+                <div class="col-sm-6">
+                  <div class="card card-eco p-4">
+                    <div class="icon-circle">✓</div>
+                    <h5 class="fw-bold">Misión</h5>
+                    <p class="mb-0">Acompañar a cada cliente en su proceso creativo, entregando productos únicos que combinan diseño, funcionalidad y cariño.</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card card-eco p-4">
+                    <div class="icon-circle">★</div>
+                    <h5 class="fw-bold">Visión</h5>
+                    <p class="mb-0">Ser una marca reconocida a nivel nacional por su creatividad, rapidez, compromiso e innovación.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="testimonio">
-            <p>“Los productos son preciosos y duraderos.”</p>
-            <span>— Danae</span>
+      <!-- Productos: equivalente a Key Features del template Applab -->
+      <section class="py-7 bg-eco-soft" id="productos">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8">
+              <h2 class="section-title">Productos y servicios</h2>
+              <p class="fs-1">Diseños personalizados para regalos, empresas o uso personal. Cada creación nace desde la idea del cliente y se desarrolla con atención al detalle.</p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/producto-1.jpg" class="product-img" alt="Tazones personalizados Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Tazones personalizados</h5>
+                  <p>Tazones sublimados con diseños exclusivos, ideales para regalos especiales, empresas o fechas importantes.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/producto-2.jpg" class="product-img" alt="Cuadernos y papelería creativa Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Agendas y cuadernos</h5>
+                  <p>Productos de papelería creativa pensados para organización, estudio, trabajo y detalles personalizados.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/producto-3.jpg" class="product-img" alt="Stickers y diseños personalizados Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Stickers y diseños</h5>
+                  <p>Diseños exclusivos, etiquetas, stickers y material gráfico personalizado según la necesidad del cliente.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/almohada-personalizada.jpg" class="product-img" alt="Almohada personalizada Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Almohadas personalizadas</h5>
+                  <p>Almohadas sublimadas con fotografías, nombres y mensajes para transformar recuerdos en un regalo único.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/producto-5.jpg" class="product-img" alt="Regalos personalizados Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Regalos personalizados</h5>
+                  <p>Productos hechos a medida para cumpleaños, celebraciones, detalles familiares y ocasiones especiales.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card card-eco">
+                <img src="assets/img/ecopilgua/producto-6.jpg" class="product-img" alt="Productos sublimados Eco Pilgua">
+                <div class="card-body p-4">
+                  <h5 class="fw-bold">Sublimación</h5>
+                  <p>Pad mouse, cerámicas, cojines y artículos sublimados con terminaciones cuidadas y diseños personalizados.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div class="testimonio">
-            <p>“Excelente atención y compromiso, todo llega a tiempo.”</p>
-            <span>— Cindy M.</span>
+      <!-- Historia -->
+      <section class="py-7" id="historia">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <h2 class="section-title mb-4">Una historia hecha con amor</h2>
+              <p class="fs-1">Eco Pilgua nació hace una década desde el esfuerzo, la creatividad y el deseo de salir adelante. Es el resultado de transformar una historia de vida en amor, arte y dedicación.</p>
+              <p class="fs-1">Cada producto refleja cuidado y autenticidad, porque en Eco Pilgua cada pieza cuenta una historia y todas están entrelazadas con cariño.</p>
+              <a class="btn btn-eco" href="#contacto">Solicitar diseño personalizado</a>
+            </div>
+            <div class="col-lg-6 text-center">
+              <img class="img-fluid rounded-3 shadow" src="assets/img/ecopilgua/producto-almohada-publicacion.jpg" alt="Publicación de producto Eco Pilgua" />
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section id="contacto" class="section contacto">
-        <h2>Contacto</h2>
-
-        <p><strong>Correo:</strong> ecopilgua@gmail.com</p>
-        <p><strong>Dirección:</strong> Envíos a todo Chile. En Talca se puede coordinar según disponibilidad.</p>
-
-        <div class="redes">
-            <a href="https://www.instagram.com/ecopligua" target="_blank">Instagram</a>
-            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
-            <a href="https://www.tiktok.com/" target="_blank">TikTok</a>
-            <a href="https://wa.me/56932776583" target="_blank">WhatsApp</a>
+      <!-- Testimonios: sección testimonial del template adaptada -->
+      <section class="py-7 bg-eco-soft" id="testimonios">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8">
+              <h2 class="section-title">Testimonios de clientes</h2>
+              <p class="fs-1">Opiniones que refuerzan la calidad del servicio y el valor de la atención personalizada.</p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4"><div class="testimonial-card h-100"><p>“Le conté mi idea y en minutos ya tenía el diseño, quedó hermoso. Atención rápida y 100% personalizada.”</p><strong>— Carolina</strong></div></div>
+            <div class="col-md-4"><div class="testimonial-card h-100"><p>“Los productos de Eco Pilgua son preciosos y duraderos. Siempre recibo elogios por los tazones y cuadernos personalizados.”</p><strong>— Danae</strong></div></div>
+            <div class="col-md-4"><div class="testimonial-card h-100"><p>“Excelente atención y compromiso, todo llega a tiempo y con una presentación impecable.”</p><strong>— Cindy M.</strong></div></div>
+          </div>
         </div>
-    </section>
+      </section>
 
-</main>
+      <!-- Contacto mejorado con iconos y botones visuales -->
+      <section class="py-7" id="contacto">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8">
+              <h2 class="section-title">Contacto y redes sociales</h2>
+              <p class="fs-1">Contáctanos para cotizar, enviar tu idea o coordinar un diseño personalizado. Realizamos envíos a todo Chile y en Talca se puede coordinar según disponibilidad.</p>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3"><a class="contact-link" href="https://www.instagram.com/ecopligua" target="_blank"><span>📸</span><strong>Instagram<br><small>@ecopligua</small></strong></a></div>
+            <div class="col-md-6 col-lg-3"><a class="contact-link" href="https://www.facebook.com/" target="_blank"><span>👍</span><strong>Facebook<br><small>Eco Pilgua</small></strong></a></div>
+            <div class="col-md-6 col-lg-3"><a class="contact-link" href="https://www.tiktok.com/" target="_blank"><span>🎵</span><strong>TikTok<br><small>Eco Pilgua</small></strong></a></div>
+            <div class="col-md-6 col-lg-3"><a class="contact-link" href="https://wa.me/56932776583" target="_blank"><span>💬</span><strong>WhatsApp<br><small>+56 9 3277 6583</small></strong></a></div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-md-6"><div class="contact-link"><span>✉️</span><strong>Correo<br><small>ecopilgua@gmail.com</small></strong></div></div>
+            <div class="col-md-6"><div class="contact-link"><span>📦</span><strong>Despacho<br><small>Envíos a todo Chile / coordinación en Talca</small></strong></div></div>
+          </div>
+        </div>
+      </section>
 
-<footer>
-    <p>© 2024 Eco Pilgua. Todos los derechos reservados.</p>
-</footer>
+      <!-- Footer original del template adaptado -->
+      <section class="py-6 footer-eco">
+        <div class="container text-center">
+          <div class="mb-3"><a class="d-inline-flex align-items-center text-decoration-none fw-bold fs-3" href="#top"><span class="text-eco">Eco</span><span class="text-white"> Pilgua</span></a></div>
+          <ul class="list-unstyled list-inline mb-4">
+            <li class="list-inline-item mx-2"><a href="#inicio">Inicio</a></li>
+            <li class="list-inline-item mx-2"><a href="#nosotros">Nosotros</a></li>
+            <li class="list-inline-item mx-2"><a href="#productos">Productos</a></li>
+            <li class="list-inline-item mx-2"><a href="#testimonios">Testimonios</a></li>
+            <li class="list-inline-item mx-2"><a href="#contacto">Contacto</a></li>
+          </ul>
+          <p class="mb-0">© 2024 Eco Pilgua. Sitio migrado al template Applab.</p>
+        </div>
+      </section>
+    </main>
 
-</body>
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  </body>
 </html>
